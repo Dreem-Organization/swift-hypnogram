@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63D219B3182F15DF625015E2 /* Pods_hypnogramSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D003C0FACE9D7FA435282C2 /* Pods_hypnogramSample.framework */; };
 		FC71D06420ED1076003935DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71D06320ED1076003935DE /* AppDelegate.swift */; };
 		FC71D06620ED1076003935DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71D06520ED1076003935DE /* ViewController.swift */; };
 		FC71D06920ED1076003935DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC71D06720ED1076003935DE /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		FC71D06E20ED1079003935DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC71D06C20ED1079003935DE /* LaunchScreen.storyboard */; };
 		FC71D07920ED1079003935DE /* hypnogramSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71D07820ED1079003935DE /* hypnogramSampleTests.swift */; };
 		FC71D08420ED1079003935DE /* hypnogramSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71D08320ED1079003935DE /* hypnogramSampleUITests.swift */; };
+		FC71D09220ED1360003935DE /* Hypnogram.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC71D09120ED1360003935DE /* Hypnogram.swift */; };
+		FCCEBEC521F0CB90001E53DF /* HoursAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCEBEC421F0CB90001E53DF /* HoursAxisValueFormatter.swift */; };
+		FCCEBEC721F0CFDE001E53DF /* StagesAxisValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCEBEC621F0CFDE001E53DF /* StagesAxisValueFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D003C0FACE9D7FA435282C2 /* Pods_hypnogramSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hypnogramSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0525F09037A639B6CD2552 /* Pods-hypnogramSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hypnogramSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hypnogramSample/Pods-hypnogramSample.debug.xcconfig"; sourceTree = "<group>"; };
+		7D516ECE98D024C50F73BFD9 /* Pods_hypnogramSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hypnogramSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0986D76FF47808CED31DDDE /* Pods-hypnogramSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hypnogramSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-hypnogramSample/Pods-hypnogramSample.release.xcconfig"; sourceTree = "<group>"; };
+		A6114A374E56113B0FC639B6 /* Pods_hypnogramSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hypnogramSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC71D06020ED1076003935DE /* hypnogramSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hypnogramSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC71D06320ED1076003935DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC71D06520ED1076003935DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		FC71D07F20ED1079003935DE /* hypnogramSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hypnogramSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC71D08320ED1079003935DE /* hypnogramSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hypnogramSampleUITests.swift; sourceTree = "<group>"; };
 		FC71D08520ED1079003935DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC71D09120ED1360003935DE /* Hypnogram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hypnogram.swift; sourceTree = "<group>"; };
+		FCCEBEC421F0CB90001E53DF /* HoursAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoursAxisValueFormatter.swift; sourceTree = "<group>"; };
+		FCCEBEC621F0CFDE001E53DF /* StagesAxisValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagesAxisValueFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D219B3182F15DF625015E2 /* Pods_hypnogramSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A807CD74552DF33CEFA5BFE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C0525F09037A639B6CD2552 /* Pods-hypnogramSample.debug.xcconfig */,
+				A0986D76FF47808CED31DDDE /* Pods-hypnogramSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7FD814C7E20F864745C8EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D003C0FACE9D7FA435282C2 /* Pods_hypnogramSample.framework */,
+				7D516ECE98D024C50F73BFD9 /* Pods_hypnogramSampleTests.framework */,
+				A6114A374E56113B0FC639B6 /* Pods_hypnogramSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC71D05720ED1075003935DE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				FC71D07720ED1079003935DE /* hypnogramSampleTests */,
 				FC71D08220ED1079003935DE /* hypnogramSampleUITests */,
 				FC71D06120ED1076003935DE /* Products */,
+				A807CD74552DF33CEFA5BFE8 /* Pods */,
+				E7FD814C7E20F864745C8EC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +131,14 @@
 		FC71D06220ED1076003935DE /* hypnogramSample */ = {
 			isa = PBXGroup;
 			children = (
+				FCCEBEC321F0C7FA001E53DF /* Formatters */,
 				FC71D06320ED1076003935DE /* AppDelegate.swift */,
 				FC71D06520ED1076003935DE /* ViewController.swift */,
 				FC71D06720ED1076003935DE /* Main.storyboard */,
 				FC71D06A20ED1079003935DE /* Assets.xcassets */,
 				FC71D06C20ED1079003935DE /* LaunchScreen.storyboard */,
 				FC71D06F20ED1079003935DE /* Info.plist */,
+				FC71D09120ED1360003935DE /* Hypnogram.swift */,
 			);
 			path = hypnogramSample;
 			sourceTree = "<group>";
@@ -125,6 +161,15 @@
 			path = hypnogramSampleUITests;
 			sourceTree = "<group>";
 		};
+		FCCEBEC321F0C7FA001E53DF /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				FCCEBEC421F0CB90001E53DF /* HoursAxisValueFormatter.swift */,
+				FCCEBEC621F0CFDE001E53DF /* StagesAxisValueFormatter.swift */,
+			);
+			path = Formatters;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC71D08820ED1079003935DE /* Build configuration list for PBXNativeTarget "hypnogramSample" */;
 			buildPhases = (
+				BDE0464F59228A8F04658A86 /* [CP] Check Pods Manifest.lock */,
 				FC71D05C20ED1076003935DE /* Sources */,
 				FC71D05D20ED1076003935DE /* Frameworks */,
 				FC71D05E20ED1076003935DE /* Resources */,
+				9C368A55FB98E0E7E9459BE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,13 +298,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C368A55FB98E0E7E9459BE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hypnogramSample/Pods-hypnogramSample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hypnogramSample/Pods-hypnogramSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE0464F59228A8F04658A86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hypnogramSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC71D05C20ED1076003935DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCCEBEC721F0CFDE001E53DF /* StagesAxisValueFormatter.swift in Sources */,
 				FC71D06620ED1076003935DE /* ViewController.swift in Sources */,
+				FC71D09220ED1360003935DE /* Hypnogram.swift in Sources */,
 				FC71D06420ED1076003935DE /* AppDelegate.swift in Sources */,
+				FCCEBEC521F0CB90001E53DF /* HoursAxisValueFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +517,13 @@
 		};
 		FC71D08920ED1079003935DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0525F09037A639B6CD2552 /* Pods-hypnogramSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S87W7XCHS;
 				INFOPLIST_FILE = hypnogramSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +537,13 @@
 		};
 		FC71D08A20ED1079003935DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0986D76FF47808CED31DDDE /* Pods-hypnogramSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6S87W7XCHS;
 				INFOPLIST_FILE = hypnogramSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

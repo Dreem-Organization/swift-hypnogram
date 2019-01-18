@@ -1,0 +1,6 @@
+framework module Pods_hypnogramSample {
+  umbrella header "Pods-hypnogramSample-umbrella.h"
+
+  export *
+  module * { export * }
+}
