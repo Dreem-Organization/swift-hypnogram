@@ -13,8 +13,6 @@ use_frameworks!
 
 pod 'Charts'
 ```
-Once installed, just ```import Charts``` in your classes and you're good to go.
-
 
 ## Tutorials
 
