@@ -2,7 +2,9 @@
 
 This sample uses Charts for building a hypnogram.
 
-## Tutorials
+![alt text](https://github.com/Dreem-Organization/swift-hypnogram/blob/master/hypnogram.png)
+
+## Tutorial
 
 To get more informations, please refer to the link below: 
 
